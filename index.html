@@ -9,7 +9,7 @@
         :root {
             --text-color: #e2e8f0;
             --accent-color: #94a3b8;
-            --fade-speed: 2s; /* ช้าลงเพื่อความละมุน */
+            --fade-speed: 0.5s;
         }
 
         * { box-sizing: border-box; }
@@ -17,7 +17,6 @@
         body {
             margin: 0;
             font-family: 'Kanit', sans-serif;
-            /* พื้นหลังไล่เฉดสีแบบขยับได้ สร้างอารมณ์ลุ่มลึก */
             background: linear-gradient(135deg, #0f172a, #1e293b, #020617);
             background-size: 400% 400%;
             animation: gradientBG 15s ease infinite;
@@ -145,7 +144,7 @@
         <section id="screen-end" class="screen">
             <h2>ขอบคุณที่อนุญาตให้ตัวเองได้รู้สึก</h2>
             <p style="font-size: 0.8rem; color: rgba(255,255,255,0.4); margin-bottom: 10px;">มีอะไรที่อยากทิ้งไว้ที่นี่ไหม?</p>
-            <iframe src="ใส่ลิงก์_Google_Form_ของคุณตรงนี้" width="100%" height="380" frameborder="0">กำลังโหลด…</iframe>
+            <iframe src="https://forms.gle/9fysEnT76Vnacu497" width="100%" height="380" frameborder="0">กำลังโหลด…</iframe>
             <button onclick="nextScreen('screen-thanks')" style="margin-top: 20px;">จบบันทึก</button>
         </section>
 
